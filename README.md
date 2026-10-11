@@ -61,6 +61,11 @@ https://github.com/user-attachments/assets/07069457-27af-4b66-91ec-735703340abf
 
 > GitHub 页面无法直接播放视频时，可点击链接查看或下载原始文件。
 
+## 降智情况&各功能兼容情况
+
+<details>
+<summary><span style="color: #d4a017; font-weight: bold;">点击此处以查看降智情况及部分检测</span></summary>
+
 
 ### 最新版本降智情况（原生日本 IP）
 
@@ -85,6 +90,12 @@ https://github.com/user-attachments/assets/07069457-27af-4b66-91ec-735703340abf
 
 
 ![实验模式](./imageandvideo/方案.png)
+
+### GPT6-intelligent-UI
+
+![GPT6intelligentUI](./imageandvideo/GPT6-UI.png)
+
+</details>
 
 
 ## 项目结构
@@ -214,6 +225,7 @@ client_header_buffer_size 64k;
 - 添加对新版 GPT6 系列 和 ChatGPT Intelligent UI
 - 减少 GPT6 使用 ChatGPT Intelligent UI 的降智可能
 - 优化组件适配性
+- cfbypass-2.0提供了适用于 Cloudflare turnstile 的更快的处理方案（需要更新 [docker-compose.yml](./docker-compose.yml) ）
 
 ### 2026-09
 
